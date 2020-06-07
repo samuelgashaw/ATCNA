@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import SocialFollow from './SocialFollow';
 function Footer() {
   return (
     <FooterContainer className="main-footer">
@@ -66,12 +67,13 @@ function Footer() {
               </ul>
             </div>
           </div>
+          <SocialFollow />
           <div className="footer-bottom">
-            <p className="text-xs-center">
-              <center>
+            <center>
+              <p className="text-xs-center">
                 &copy;{new Date().getFullYear()} ATCNA - All Rights Reserved
-              </center>
-            </p>
+              </p>
+            </center>
           </div>
         </div>
       </div>

@@ -4,6 +4,8 @@
   --mainLightBlue: #4fb7f7;
   --mainYellow: #ffc30c;
   --mainBlue: #007bff;
+  --mainWhite: #fff;
+  --mainDark: #000;
 }
 .navbar-toggler:focus {
   outline: none;
@@ -13,4 +15,37 @@
   border: none;
 }
 
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
 
+a.social {
+  padding: 25px 50px;
+
+  margin: 0 1rem 1rem 3rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+a.telegram {
+  color: #49a1eb;
+}

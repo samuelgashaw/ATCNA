@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark"
-      style={{ 'background-color': '#415396' }}
+      style={{ backgroundColor: '#415396' }}
     >
       <Link
         className="navbar-brand  text-capitalize ml-0  "

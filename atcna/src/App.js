@@ -21,6 +21,7 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/events" component={Events} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/details" component={Details} />
           <Route component={NotFoundpage} />
         </Switch>
         <Footer />

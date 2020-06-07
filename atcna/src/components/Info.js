@@ -25,7 +25,7 @@ class Info extends Component {
                   <Link
                     to="/details"
                     className="btn
-                    btn-outline-primary                    
+                    btn-outline-primary
                     text-uppercase"
                     style={{ background: '#415396', color: '#ffc30c' }}
                   >
