@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { InfoConsumer } from '../context';
 import styled from 'styled-components';
+import Reviews from '../Reviews';
 class Details extends Component {
   render() {
     return (
@@ -90,7 +91,7 @@ class Details extends Component {
                 </div>
                 {/* reviews */}
                 <div className="tab-pane" id="reviews" role="tabpanel">
-                  Reviews Content
+                  <Reviews></Reviews>
                 </div>
                 {/* maps */}
 
@@ -118,46 +119,43 @@ class Details extends Component {
 export default Details;
 
 const HeaderDetails = styled.header`
-  //  background: linear-gradient(rgba(109, 109, 109), rgba(255, 255, 255));
-  height: 100vh;
+  // background: linear-gradient(rgba(109, 109, 109), rgba(255, 255, 255));
+  height: '100vh';
   text-transform: uppercase;
-  color: var(--mainWhite)
-  text-align:center;
-  h1{
-    padding-top:10%;
-    color:var(--mainDark)
+  color: var(--mainWhite);
+  text-align: center;
+  h1 {
+    padding-top: 10%;
+    color: var(--mainDark);
+  }
+  h4 {
+    color: var(--mainDark);
   }
 
-  h4{
-        color:var(--mainDark)
-
-  }
-
-
-  p{
-    padding-left:10%;
-        padding-right:10%;
-        margin-bottom:10%
-        color:var(--mainDark)
-
+  p {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+    color: var(--mainDark);
   }
 
   i {
-    font-size:21.875rem;
-    color:var(--mainDark)
+    font-size: 1.875rem;
+    color: var(--mainDark);
   }
-  i:hover{
-    color:var(--mainBlue);
-    cursor:pointer;
-  }
-
-  .nav-item{
-    height:18.75rem;
+  i:hover {
+    color: var(--mainBlue);
+    cursor: pointer;
   }
 
-  @media(max-width:760px){
-    h1,h4{
-      color:var(--mainBlue)
+  .nav-item {
+    height: 18.75rem;
+  }
+
+  @media (max-width: 760px) {
+    h1,
+    h4 {
+      color: var(--mainBlue);
     }
   }
 `;

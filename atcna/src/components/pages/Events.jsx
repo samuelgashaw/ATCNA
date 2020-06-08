@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
-
+import EventsCard from '../EventsCard';
+import { InfoConsumer } from '../context';
 class Events extends Component {
   render() {
     return (
-      <div>
-        <h2>Events page</h2>
-      </div>
+      <InfoConsumer>
+        {(value) => {
+          return value.news.map((item) => {
+            return <EventsCard key={item.id} item={item} />;
+          });
+        }}
+      </InfoConsumer>
     );
   }
 }

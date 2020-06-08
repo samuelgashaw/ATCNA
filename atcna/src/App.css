@@ -6,6 +6,7 @@
   --mainBlue: #007bff;
   --mainWhite: #fff;
   --mainDark: #000;
+  --footerbgColor:rgba(52,58,64)
 }
 .navbar-toggler:focus {
   outline: none;
@@ -16,7 +17,6 @@
 }
 
 .social-container {
-  background: #eee;
   padding: 25px 50px;
 }
 
