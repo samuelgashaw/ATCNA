@@ -37,7 +37,7 @@ function Navbar() {
               to="/"
               style={{ color: '#FFC30C' }}
             >
-              home <span className="sr-only">(current)</span>
+              Samuel <span className="sr-only">(current)</span>
             </Link>
           </li>
           <li className="nav-item">
