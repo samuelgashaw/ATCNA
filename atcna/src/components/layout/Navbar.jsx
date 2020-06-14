@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
-      // style={{ backgroundColor: '#415396' }}
+      className="navbar navbar-expand-lg navbar-dark  sticky-top"
+      style={{ backgroundColor: '#121214' }}
     >
       <Link
         className="navbar-brand  text-capitalize ml-0  "
@@ -33,7 +33,7 @@ function Navbar() {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
             <Link
-              className="nav-link  text-uppercase ml-5"
+              className="nav-link  text-uppercase ml-5 menuItem"
               to="/"
               style={{ color: '#FFC30C' }}
             >
@@ -70,7 +70,7 @@ function Navbar() {
 
           <li className="nav-item">
             <Link
-              className="nav-link  text-uppercase ml-5"
+              className="nav-link  text-uppercase ml-5 disabled"
               to="/membersArea"
               style={{ color: '#FFC30C' }}
             >
