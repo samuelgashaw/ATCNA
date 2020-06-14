@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark"
-      style={{ backgroundColor: '#415396' }}
+      className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
+      // style={{ backgroundColor: '#415396' }}
     >
       <Link
         className="navbar-brand  text-capitalize ml-0  "
         to="/"
         style={{ color: '#FFC30C' }}
       >
-        <img src={logo} alt="ACTNA" style={{ width: '65px' }} />
-        &nbsp; association of tebassie community in north america
+        <img src={logo} alt="ACTNA" style={{ width: '100px' }} />
+        association of tebassie community in north america
         <span style={{ color: '#4FB7F7' }}> (ATCNA)</span>
       </Link>
 
@@ -65,6 +65,16 @@ function Navbar() {
               style={{ color: '#FFC30C' }}
             >
               contact us
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link
+              className="nav-link  text-uppercase ml-5"
+              to="/membersArea"
+              style={{ color: '#FFC30C' }}
+            >
+              Member Login
             </Link>
           </li>
         </ul>

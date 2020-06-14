@@ -9,7 +9,7 @@ import Events from './components/pages/Events';
 import Contact from './components/pages/Contact';
 import NotFoundpage from './components/pages/NotFoundPage';
 import Details from './components/pages/Details';
-
+import CreditCardPayment from './components/pages/CreditCardPayment';
 import { Switch, Route } from 'react-router-dom';
 class App extends Component {
   render() {
@@ -20,8 +20,9 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/events" component={Events} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/contact" component={Contact} />{' '}
           <Route exact path="/details" component={Details} />
+          <Route exact path="/membersArea" component={CreditCardPayment} />
           <Route component={NotFoundpage} />
         </Switch>
         <Footer />

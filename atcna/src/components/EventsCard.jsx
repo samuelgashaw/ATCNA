@@ -3,7 +3,7 @@ import { InfoConsumer } from './context';
 import { Link } from 'react-router-dom';
 class EventsCard extends Component {
   render() {
-    const { id, newsTitle, newsText } = this.props.item;
+    const { id, newsTitle, newsText, date } = this.props.item;
     return (
       <InfoConsumer>
         {(value) => (
@@ -13,6 +13,7 @@ class EventsCard extends Component {
                 {newsTitle}
               </h5>
               <p className="card-text">{newsText}</p>
+              <h6>{date}</h6>
               <Link className="card-link">Read More >></Link>
             </div>
           </div>

@@ -6,7 +6,10 @@
   --mainBlue: #007bff;
   --mainWhite: #fff;
   --mainDark: #000;
-  --footerbgColor:rgba(52,58,64)
+  --footerbgColor: rgba(52, 58, 64);
+}
+* {
+  font-family: 'Garamond';
 }
 .navbar-toggler:focus {
   outline: none;
@@ -48,4 +51,11 @@ a.instagram {
 }
 a.telegram {
   color: #49a1eb;
+}
+
+.committePictures {
+  border-radius: 5% 6% 090% 96%;
+
+  height: 200px;
+  width: 100px;
 }

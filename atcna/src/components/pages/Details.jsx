@@ -24,7 +24,7 @@ class Details extends Component {
                 <h4 className="display-5 ">{headerSubTitle}</h4>
                 <p>{headerText}</p>
               </HeaderDetails>
-              <div className="container mt-5">
+              {/* <div className="container mt-5">
                 <div className="row justify-content-center">
                   <div className="col-2">
                     <i className="fa fa-facebook-f" />
@@ -36,7 +36,7 @@ class Details extends Component {
                     <i className="fa fa-google-plus" />
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* NavLinks */}
               <div className="container">
@@ -51,7 +51,7 @@ class Details extends Component {
                       about
                     </a>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       href="#reviews"
                       className="nav-link"
@@ -60,7 +60,7 @@ class Details extends Component {
                     >
                       reviews
                     </a>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <a
                       href="#map"
@@ -90,9 +90,9 @@ class Details extends Component {
                   />
                 </div>
                 {/* reviews */}
-                <div className="tab-pane" id="reviews" role="tabpanel">
+                {/* <div className="tab-pane" id="reviews" role="tabpanel">
                   <Reviews></Reviews>
-                </div>
+                </div> */}
                 {/* maps */}
 
                 <div className="tab-pane" id="map" role="tabpanel">

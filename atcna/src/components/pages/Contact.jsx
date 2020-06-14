@@ -6,7 +6,7 @@ class Contacts extends Component {
       <section className="my-5 py-5">
         <div className="container">
           <div className="well well-sm">
-            <h3>
+            <h3 className="display-4">
               <strong>Our Location</strong>
             </h3>
           </div>
@@ -26,7 +26,7 @@ class Contacts extends Component {
               ></iframe>
             </div>
             <div className="col-md-5">
-              <h4>
+              <h4 className="display-4">
                 <strong>Contact Us</strong>
               </h4>
               <form>
