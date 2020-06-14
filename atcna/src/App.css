@@ -55,11 +55,7 @@ a.telegram {
   color: #49a1eb;
 }
 
-header .current a {
-  color: #e8491d;
-  font-weight: bold;
-}
-
-main-nav-active {
+.active {
   color: tomato;
+  font-weight: bold;
 }

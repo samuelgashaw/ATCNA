@@ -5,14 +5,11 @@ class Contacts extends Component {
     return (
       <section className="my-5 py-5">
         <div className="container">
-          <div className="well well-sm">
-            <h3 className="display-4">
-              <strong>Our Location</strong>
-            </h3>
-          </div>
-
           <div className="row">
             <div className="col-md-7">
+              <h3 className="display-5">
+                <strong>Our Location</strong>
+              </h3>
               <iframe
                 title="location"
                 src="https://www.google.com/maps/d/u/0/embed?mid=1VoIdpcPfMEOFMzl78555sGikEhjUqisn"
@@ -26,9 +23,9 @@ class Contacts extends Component {
               ></iframe>
             </div>
             <div className="col-md-5">
-              <h4 className="display-4">
+              <h3 className="display-5">
                 <strong>Contact Us</strong>
-              </h4>
+              </h3>
               <form>
                 <div className="form-group">
                   <input

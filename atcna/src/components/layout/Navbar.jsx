@@ -8,6 +8,7 @@ function Navbar() {
       style={{ backgroundColor: '#121214' }}
     >
       <NavLink
+        exact
         className="navbar-brand  text-capitalize ml-0  "
         to="/"
         style={{ color: '#FFC30C' }}
@@ -33,8 +34,9 @@ function Navbar() {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <NavLink
-              className=" main-nav nav-link  text-uppercase ml-5 main-nav-active"
-              activeClassName="main-nav-active"
+              exact
+              className="nav-link  text-uppercase ml-5 main-nav-active"
+              activeClassName="active"
               to="/"
               style={{ color: '#FFC30C' }}
             >
@@ -43,6 +45,8 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
+              exact
+              activeClassName="active"
               className="nav-link text-uppercase ml-5"
               to="/about"
               style={{ color: '#FFC30C' }}
@@ -52,6 +56,8 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
+              exact
+              activeClassName="active"
               className="nav-link  text-uppercase ml-5"
               to="/events"
               style={{ color: '#FFC30C' }}
@@ -61,6 +67,8 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
+              exact
+              activeClassName="active"
               className="nav-link  text-uppercase ml-5"
               to="/contact"
               style={{ color: '#FFC30C' }}
@@ -71,6 +79,8 @@ function Navbar() {
 
           <li className="nav-item">
             <NavLink
+              exact
+              activeClassName="active"
               className="nav-link  text-uppercase ml-5 disabled"
               to="/membersArea"
               style={{ color: '#FFC30C' }}
