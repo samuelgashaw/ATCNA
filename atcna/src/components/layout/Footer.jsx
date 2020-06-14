@@ -84,7 +84,7 @@ export default Footer;
 
 const FooterContainer = styled.footer`
   .footer-middle {
-    background: #343a40;
+    background: #121214;
     padding-top: 3rem;
     color: var(--mainYellow);
   }

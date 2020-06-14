@@ -22,7 +22,7 @@ class App extends Component {
           <Route exact path="/events" component={Events} />
           <Route exact path="/contact" component={Contact} />{' '}
           <Route exact path="/details" component={Details} />
-          <Route exact path="/membersArea" component={CreditCardPayment} />
+          <Route exact path="/membersArea" />
           <Route component={NotFoundpage} />
         </Switch>
         <Footer />

@@ -6,10 +6,12 @@
   --mainBlue: #007bff;
   --mainWhite: #fff;
   --mainDark: #000;
-  --footerbgColor: rgba(52, 58, 64);
+  /* --footerbgColor: rgba(52, 58, 64); */
+
+  --footerbgColor: #121214;
 }
 * {
-  font-family: 'Garamond';
+  font-family: Arial, Helvetica, sans-serif;
 }
 .navbar-toggler:focus {
   outline: none;
@@ -53,19 +55,11 @@ a.telegram {
   color: #49a1eb;
 }
 
-.committePictures {
-  border-radius: 5% 6% 090% 96%;
-
-  height: 200px;
-  width: 100px;
-}
-
 header .current a {
   color: #e8491d;
   font-weight: bold;
 }
 
-menuItem:hover {
-  color: #cccccc;
-  font-weight: bold;
+main-nav-active {
+  color: tomato;
 }
