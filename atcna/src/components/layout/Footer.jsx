@@ -6,6 +6,7 @@ function Footer() {
     <FooterContainer className="main-footer">
       <div className="footer-middle">
         <div className="container">
+          <SocialFollow />
           <div className="row">
             <div className="col-md-3 col-sm-6 text-capitalize">
               <h4>contact us</h4>
@@ -16,58 +17,60 @@ function Footer() {
               </ul>
             </div>
             <div className="col-md-3 col-sm-6">
-              <h4>Lorem.</h4>
+              <h4>Charity Organizations</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Aregawiyan Merja Mahiber</a>
                 </li>
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Abroadeg</a>
                 </li>
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Tebassie Charity</a>
                 </li>
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Tebassie Charity</a>
                 </li>
               </ul>
             </div>
             <div className="col-md-3 col-sm-6">
-              <h4>Lorem.</h4>
+              <h4>Education</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Debre Birhan University</a>
                 </li>
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Debre Birhan TEVT</a>
                 </li>
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Ras Abebe Aregay Library & Bookstore</a>
                 </li>
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Tebassie College</a>
                 </li>
               </ul>
             </div>
             <div className="col-md-3 col-sm-6">
-              <h4>Lorem.</h4>
+              <h4>Investment</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="https://www.habeshabreweries.com/">
+                    Habesha Breweries
+                  </a>
                 </li>
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Dashen Breweries</a>
                 </li>
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Tebassie Investment</a>
                 </li>
                 <li>
-                  <a href="/">Lorem, ipsum.</a>
+                  <a href="/">Tebassie Investment</a>
                 </li>
               </ul>
             </div>
           </div>
-          <SocialFollow />
+
           <div className="footer-bottom">
             <center>
               <p className="text-xs-center">
@@ -98,5 +101,9 @@ const FooterContainer = styled.footer`
   }
   ul li a:hover {
     color: var(--mainLightBlue);
+  }
+  h4 {
+    color: var(--mainLightBlue);
+    text-decoration: underline;
   }
 `;

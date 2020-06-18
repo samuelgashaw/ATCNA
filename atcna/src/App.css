@@ -7,11 +7,10 @@
   --mainWhite: #fff;
   --mainDark: #000;
   /* --footerbgColor: rgba(52, 58, 64); */
-
   --footerbgColor: #121214;
 }
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Lato, sans-serif, 'Playfair Display', cursive;
 }
 .navbar-toggler:focus {
   outline: none;
@@ -22,18 +21,17 @@
 }
 
 .social-container {
-  padding: 25px 50px;
+  padding: 0px 50px;
 }
 
 a.social {
-  padding: 25px 50px;
-
+  padding: 0px 50px;
   margin: 0 1rem 1rem 3rem;
   transition: transform 250ms;
   display: inline-block;
 }
 a.social:hover {
-  transform: translateY(-2px);
+  transform: translateY(2px);
 }
 
 a.youtube {
@@ -55,7 +53,34 @@ a.telegram {
   color: #49a1eb;
 }
 
+/* navbar items */
+.navbar {
+  border-bottom: 5px solid rgb(82, 182, 246);
+}
+.nav-item :hover {
+  /* border-radius: 25px; */
+  font-weight: bolder;
+  background-color: rgba(54, 129, 175, 0.2);
+  transform: translateY(-2px);
+}
+
 .active {
-  color: tomato;
+  background-color: rgba(54, 129, 175, 0.2);
   font-weight: bold;
+}
+
+.carousel-inner > .carousel-item {
+  height: 600px;
+  opacity: 1;
+}
+
+.ImageDescription {
+  background-color: #121214;
+  opacity: 0.9;
+}
+
+.ImageDescription > h5,
+.ImageDescription > p {
+  color: var(--mainYellow);
+  opacity: 1;
 }

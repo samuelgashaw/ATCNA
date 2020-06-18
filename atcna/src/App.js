@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Home from './components/pages/Home';
+
+//import Home2 from './components/pages/Home2';
 import About from './components/pages/About';
 import Events from './components/pages/Events';
 import Contact from './components/pages/Contact';
@@ -17,12 +19,13 @@ class App extends Component {
       <>
         <Navbar />
         <Switch>
+          {/* <Route exact path="/" component={Home} /> */}
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/events" component={Events} />
-          <Route exact path="/contact" component={Contact} />{' '}
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/details" component={Details} />
-          <Route exact path="/membersArea" />
+          <Route exact path="/membersArea" component={CreditCardPayment} />
           <Route component={NotFoundpage} />
         </Switch>
         <Footer />

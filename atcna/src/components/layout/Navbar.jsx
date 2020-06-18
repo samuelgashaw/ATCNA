@@ -4,18 +4,18 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark  sticky-top"
+      className="navbar navbar-expand-lg navbar-dark sticky-top"
       style={{ backgroundColor: '#121214' }}
     >
       <NavLink
         exact
-        className="navbar-brand  text-capitalize ml-0  "
+        className="navbar-brand  text-capitalize ml-0 "
         to="/"
         style={{ color: '#FFC30C' }}
       >
         <img src={logo} alt="ACTNA" style={{ width: '100px' }} />
         association of tebassie community in north america
-        <span style={{ color: '#4FB7F7' }}> (ATCNA)</span>
+        <span style={{ color: '#4FB7F7' }}>(ATCNA)</span>
       </NavLink>
 
       <button
@@ -31,8 +31,17 @@ function Navbar() {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav ml-auto">
+        <ul className="navbar-nav ml-auto list-unstyled">
           <li className="nav-item">
+            {/* <NavLink
+              exact
+              className="nav-link  text-uppercase ml-5 main-nav-active"
+              activeClassName="active"
+              to="/"
+              style={{ color: '#FFC30C' }}
+            >
+              Home
+            </NavLink> */}
             <NavLink
               exact
               className="nav-link  text-uppercase ml-5 main-nav-active"

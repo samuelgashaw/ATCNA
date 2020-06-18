@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 class Contacts extends Component {
+  sendEmail = () => {};
+
   render() {
     return (
       <section className="my-5 py-5">
@@ -61,6 +63,7 @@ class Contacts extends Component {
 
                   <Link
                     className="btn btn-outline-primary text-uppercase mt-3"
+                    onClick={(senderEmail) => this.sendEmail}
                     // style={{ background: '#415396', color: '#ffc30c' }}
                   >
                     <i className="fa fa-paper-plane-o" aria-hidden="true"></i>
