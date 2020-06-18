@@ -49,7 +49,7 @@ function Navbar() {
               to="/"
               style={{ color: '#FFC30C' }}
             >
-              Home
+              HomeHome
             </NavLink>
           </li>
           <li className="nav-item">
