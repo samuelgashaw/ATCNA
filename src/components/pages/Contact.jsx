@@ -28,7 +28,7 @@ class Contacts extends Component {
               <h3 className="display-5">
                 <strong>Contact Us</strong>
               </h3>
-              <form>
+              <form action="post">
                 <div className="form-group">
                   <input
                     type="text"
@@ -56,19 +56,20 @@ class Contacts extends Component {
                 <div className="form-group">
                   <textarea
                     cols="30"
-                    rows="3"
+                    rows="5"
                     className="form-control"
                     placeholder="Message"
                   ></textarea>
 
-                  <Link
+                  <button
                     className="btn btn-outline-primary text-uppercase mt-3"
                     onClick={(senderEmail) => this.sendEmail}
+
                     // style={{ background: '#415396', color: '#ffc30c' }}
                   >
                     <i className="fa fa-paper-plane-o" aria-hidden="true"></i>
                     <i className="fba fa-telegram-plane"></i>&nbsp;send
-                  </Link>
+                  </button>
                 </div>
               </form>
             </div>

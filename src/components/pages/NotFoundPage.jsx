@@ -17,9 +17,9 @@ class NotFoundPage extends Component {
                 <Link to="/" className="btn btn-outline-primary btn-lg">
                   <i className="fa fa-home">&nbsp; Back To Main</i>
                 </Link>
-                <Link className="btn btn-outline-secondary btn-lg">
+                {/* <Link className="btn btn-outline-secondary btn-lg">
                   <i className="fa fa-envelope">&nbsp; Support</i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
