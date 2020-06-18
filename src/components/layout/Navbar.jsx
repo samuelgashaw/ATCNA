@@ -14,7 +14,7 @@ function Navbar() {
         style={{ color: '#FFC30C' }}
       >
         <img src={logo} alt="ACTNA" style={{ width: '100px' }} />
-        association of tebassie community in north america
+        samuel association of tebassie community in north america
         <span style={{ color: '#4FB7F7' }}>(ATCNA)</span>
       </NavLink>
 
