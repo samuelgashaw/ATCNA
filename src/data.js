@@ -132,45 +132,31 @@ export const detailInfo = {
 
 export const news = [
   {
-    id: 1,
-    newsTitle: 'Event One',
-    newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.',
-    date: '12/12/2020 6:28PM',
-  },
-  {
-    id: 2,
-    newsTitle: 'Event Two',
-    newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.',
-    date: '12/12/2020 6:28PM',
-  },
-  {
     id: 3,
-    newsTitle: 'Event Three',
+    newsTitle: 'Official establishment of ATCNA',
     newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.',
-    date: '12/12/2020 6:28PM',
+      'The “Association of Tebasie Community in North America (ATCNA)” was established by the will of its members on May 02, 2020. ',
+    date: '05/02/2020 6:28PM',
   },
   {
     id: 4,
-    newsTitle: 'Event Four',
+    newsTitle: 'Donation for people in need',
     newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.',
+      'Before official establishment of our association in May 2020, few Tebasie community members who are living in the United States and Canada through their own initiative, raised USD 1,300 and 300 Canadian dollars, which was equivalent to 61,000 Ethiopian birr to help the needy families in Tebasie community in Ethiopia. As a result 45 households received a total of 45,000 birr (1,000 birr for each HH) to enjoy the Ethiopian Easter Holiday. ',
     date: '12/12/2020 6:28PM',
   },
   {
     id: 5,
-    newsTitle: 'የማህበሩ ምስረታ',
+    newsTitle: 'Donation for local charity organization',
     newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.',
+      'The remaining 16,000 birr donated to the local association working as a charity organization in the community to prepare meals and feed needy people for the 2020 Ethiopian Easter holiday.',
     date: '12/12/2020 6:28PM',
   },
   {
     id: 6,
-    newsTitle: 'የበጎ አድራጎት ስራ',
+    newsTitle: 'Four Covid-19 assessment thermoters donated',
     newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.',
+      'Tebasie community members from the United State donate USD 530 to purchase four COVID 19 assessment thermometers and then donate to the Tebasie area health center.',
     date: '12/12/2020 6:28PM',
   },
 ];

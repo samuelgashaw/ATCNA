@@ -12,6 +12,7 @@ import Contact from './components/pages/Contact';
 import NotFoundpage from './components/pages/NotFoundPage';
 import Details from './components/pages/Details';
 import CreditCardPayment from './components/pages/CreditCardPayment';
+import UnderConstruction from './components/pages/UnderConstruction';
 import { Switch, Route } from 'react-router-dom';
 class App extends Component {
   render() {
@@ -25,7 +26,8 @@ class App extends Component {
           <Route exact path="/events" component={Events} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/details" component={Details} />
-          <Route exact path="/membersArea" component={CreditCardPayment} />
+          <Route exact path="/membersArea" component={UnderConstruction} />
+          <Route exact path="/donate" component={UnderConstruction} />
           <Route component={NotFoundpage} />
         </Switch>
         <Footer />

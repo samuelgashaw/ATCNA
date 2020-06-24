@@ -8,14 +8,22 @@ class EventsCard extends Component {
     return (
       <InfoConsumer>
         {(value) => (
-          <Events className="card container mt-2 mb-3 p-5" id="eventCard">
+          <Events className=" card container mt-2 mb-3 p-5" id="eventCard">
             <div className="card-body" id="eventCardBody">
-              <h5 key={id} className="card-title">
+              <h4 className="card-title display-6" style={{ color: '#4fb7f7' }}>
                 {newsTitle}
-              </h5>
-              <p className="card-text">{newsText}</p>
+              </h4>
+              <p className="card-text  lead">{newsText}</p>
               <h6>{date}</h6>
-              <Link className="card-link">Read More &gt;&gt; </Link>
+              <a
+                role="button"
+                className="card-link collapsed"
+                data-toggle="collapse"
+                href="#collapseExample"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              ></a>
+              {/* <Link className="card-link">Read More &gt;&gt; </Link> */}
             </div>
           </Events>
         )}
@@ -30,5 +38,4 @@ const Events = styled.div`
   padding: 20px;
   border: #cccccc solid 1px;
   margin-bottom: 5px;
-  background: #efefef;
 `;

@@ -10,7 +10,8 @@
   --footerbgColor: #121214;
 }
 * {
-  font-family: Lato, sans-serif, 'Playfair Display', cursive;
+  font-family: Lato, 'Playfair Display';
+  /* font-family: sans-serif, cursive; */
 }
 .navbar-toggler:focus {
   outline: none;

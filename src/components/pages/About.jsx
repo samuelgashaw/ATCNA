@@ -13,14 +13,14 @@ class About extends Component {
               <p className="lead">
                 <em>
                   The “Association of Tebasie Community in North America” was
-                  established by the will of its members on May 02, 2020. This
-                  association is a non-profit organization which was established
+                  established by the will of its members on May 02, 2020. The
+                  association is a non-profit organization which is established
                   regardless of race, religion, political view, and gender to
-                  solve the social and economic challenges of our members in
-                  North America and in the community where we were born and/or
-                  grow up in Ethiopia within accordance of the law and order of
-                  the United State.
-                </em>{' '}
+                  solve the socio-economic challenges of our members in North
+                  America and in the community where we were born and/or grow up
+                  in Ethiopia within accordance of the law and order of the
+                  United State.
+                </em>
               </p>
             </div>
             <div className="col-lg-12">

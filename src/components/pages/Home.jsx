@@ -25,7 +25,7 @@ export default class Home extends Component {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img className="d-block w-100" src={Image1} alt="First slide" />
-            <div class=" ImageDescription carousel-caption d-none d-md-block ">
+            <div className=" ImageDescription carousel-caption d-none d-md-block ">
               <h5 className=" display-4">Debre Berhan University</h5>
               <p className="lead">
                 Debre Berhan University, which is a 13 years old university, is
@@ -37,7 +37,7 @@ export default class Home extends Component {
           </div>
           <div className="carousel-item">
             <img className="d-block w-100" src={Image2} alt="Second slide" />
-            <div class="ImageDescription carousel-caption d-none d-md-block">
+            <div className="ImageDescription carousel-caption d-none d-md-block">
               <h5 className="display-4">Local Market</h5>
               <p className="lead">
                 A localmarket market is a physical retail marketplace intended
@@ -48,7 +48,7 @@ export default class Home extends Component {
           </div>
           <div className="carousel-item">
             <img className="d-block w-100" src={Image3} alt="Third slide" />
-            <div class="ImageDescription carousel-caption d-none d-md-block">
+            <div className="ImageDescription carousel-caption d-none d-md-block">
               <h5 className="display-4">Beresa Dam</h5>
               <p className="lead">
                 Debre Berhan University, which is a 13 year old university, is
@@ -60,7 +60,7 @@ export default class Home extends Component {
           </div>
           <div className="carousel-item">
             <img className="d-block w-100" src={Image4} alt="Third slide" />
-            <div class="ImageDescription carousel-caption d-none d-md-block">
+            <div className="ImageDescription carousel-caption d-none d-md-block">
               <h5 className="display-4">
                 Ras Abebe Aregay Library & Bookstore
               </h5>

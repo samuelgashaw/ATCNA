@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../logo.png';
+import EthioUsaFlag from '../../images/ethiousa.jpg';
 import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
@@ -9,13 +10,13 @@ function Navbar() {
     >
       <NavLink
         exact
-        className="navbar-brand  text-capitalize ml-0 "
+        className="navbar-brand text-capitalize ml-0 "
         to="/"
         style={{ color: '#FFC30C' }}
       >
-        <img src={logo} alt="ACTNA" style={{ width: '100px' }} />
-        association of tebassie community in north america
-        <span style={{ color: '#4FB7F7' }}>(ATCNA)</span>
+        <img src={logo} alt="ACTNA" style={{ width: '100px', opacity: 1 }} />
+        hope for tebassie
+        <span style={{ color: '#4FB7F7' }}>(H4T)</span>
       </NavLink>
 
       <button
@@ -33,18 +34,9 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto list-unstyled">
           <li className="nav-item">
-            {/* <NavLink
-              exact
-              className="nav-link  text-uppercase ml-5 main-nav-active"
-              activeClassName="active"
-              to="/"
-              style={{ color: '#FFC30C' }}
-            >
-              Home
-            </NavLink> */}
             <NavLink
               exact
-              className="nav-link  text-uppercase ml-5 main-nav-active"
+              className="nav-link  text-capitalize ml-3 main-nav-active"
               activeClassName="active"
               to="/"
               style={{ color: '#FFC30C' }}
@@ -56,7 +48,7 @@ function Navbar() {
             <NavLink
               exact
               activeClassName="active"
-              className="nav-link text-uppercase ml-5"
+              className="nav-link text-capitalize ml-3"
               to="/about"
               style={{ color: '#FFC30C' }}
             >
@@ -67,7 +59,7 @@ function Navbar() {
             <NavLink
               exact
               activeClassName="active"
-              className="nav-link  text-uppercase ml-5"
+              className="nav-link  text-capitalize ml-3"
               to="/events"
               style={{ color: '#FFC30C' }}
             >
@@ -78,23 +70,32 @@ function Navbar() {
             <NavLink
               exact
               activeClassName="active"
-              className="nav-link  text-uppercase ml-5"
+              className="nav-link  text-capitalize ml-3"
               to="/contact"
               style={{ color: '#FFC30C' }}
             >
               contact us
             </NavLink>
           </li>
-
           <li className="nav-item">
             <NavLink
               exact
               activeClassName="active"
-              className="nav-link  text-uppercase ml-5 disabled"
+              className="nav-link  text-capitalize ml-3 mr-3 "
               to="/membersArea"
               style={{ color: '#FFC30C' }}
             >
-              Member Login
+              Login
+            </NavLink>
+          </li>
+
+          <li className="nav-item">
+            <NavLink exact className="text-capitalize" to="/donate">
+              <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-warning my-2 my-sm-0">
+                  Donate
+                </button>
+              </form>
             </NavLink>
           </li>
         </ul>
