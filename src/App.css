@@ -65,10 +65,10 @@ a.telegram {
   transform: translateY(-2px);
 }
 
-.active {
+/* .active {
   background-color: rgba(54, 129, 175, 0.2);
   font-weight: bold;
-}
+} */
 
 .carousel-inner > .carousel-item {
   height: 600px;

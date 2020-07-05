@@ -8,17 +8,18 @@ function Navbar() {
       className="navbar navbar-expand-lg navbar-dark sticky-top"
       style={{ backgroundColor: '#121214' }}
     >
+      <img src={logo} alt="ACTNA" style={{ width: '100px', opacity: 1 }} />
       <NavLink
         exact
         className="navbar-brand text-capitalize ml-0 "
         to="/"
         style={{ color: '#FFC30C' }}
       >
-        <img src={logo} alt="ACTNA" style={{ width: '100px', opacity: 1 }} />
-        hope for tebassie
-        <span style={{ color: '#4FB7F7' }}>(H4T)</span>
+        <h2 className="display-5">
+          hope for tebassie
+          <span style={{ color: '#4FB7F7' }}> (H4T)</span>
+        </h2>
       </NavLink>
-
       <button
         className="navbar-toggler"
         type="button"
@@ -30,7 +31,6 @@ function Navbar() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto list-unstyled">
           <li className="nav-item">
