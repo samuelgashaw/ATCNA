@@ -5,17 +5,25 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark sticky-top"
+      className="navbar navbar-expand-lg navbar-dark"
+      //  sticky-top
       style={{ backgroundColor: '#121214' }}
     >
-      <img src={logo} alt="ACTNA" style={{ width: '100px', opacity: 1 }} />
       <NavLink
         exact
         className="navbar-brand text-capitalize ml-0 "
         to="/"
         style={{ color: '#FFC30C' }}
       >
-        <h2 className="display-5">
+        <img
+          src={logo}
+          alt="H4T"
+          width="75"
+          height="75"
+          className="d-inline-block align-center"
+        />
+
+        <h2 className="display-5 d-inline-block align-middle">
           hope for tebassie
           <span style={{ color: '#4FB7F7' }}> (H4T)</span>
         </h2>
@@ -90,7 +98,12 @@ function Navbar() {
           </li>
 
           <li className="nav-item">
-            <NavLink exact className="text-capitalize" to="/donate">
+            <NavLink
+              exact
+              className="text-capitalize"
+              to="/donate"
+              style={{ outline: 'none', color: '#FFC30C' }}
+            >
               <form class="form-inline my-2 my-lg-0">
                 <button class="btn btn-outline-warning my-2 my-sm-0">
                   Donate

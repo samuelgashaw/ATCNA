@@ -12,14 +12,13 @@ class About extends Component {
               </div>
               <p className="lead">
                 <em>
-                  The “Association of Tebasie Community in North America” was
-                  established by the will of its members on May 02, 2020. The
-                  association is a non-profit organization which is established
-                  regardless of race, religion, political view, and gender to
-                  solve the socio-economic challenges of our members in North
-                  America and in the community where we were born and/or grow up
-                  in Ethiopia within accordance of the law and order of the
-                  United State.
+                  The “Hope For Tebasse” was established by the will of its
+                  members on May 02, 2020. The association is a non-profit
+                  organization which is established regardless of race,
+                  religion, political view, and gender to solve the
+                  socio-economic challenges of our members in North America and
+                  in the community where we were born and/or grow up in Ethiopia
+                  within accordance of the law and order of the United State.
                 </em>
               </p>
             </div>

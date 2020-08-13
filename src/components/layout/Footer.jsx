@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-middle">
         <div className="container">
           <SocialFollow />
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-3 col-sm-6 text-capitalize">
               <h4>contact us</h4>
               <ul className="list-unstyled">
@@ -70,11 +70,11 @@ function Footer() {
               </ul>
             </div>
           </div>
-
+*/}
           <div className="footer-bottom">
             <center>
               <p className="text-xs-center">
-                &copy;{new Date().getFullYear()} ATCNA - All Rights Reserved
+                &copy;{new Date().getFullYear()} H4T - All Rights Reserved
               </p>
             </center>
           </div>
