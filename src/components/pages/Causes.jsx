@@ -9,14 +9,14 @@ class Causes extends Component {
         <div className="my-3 py-5">
           <div className="container ">
             <div className="row">
-              <div className="col-sm-6">
+              <div className="col-sm-3">
                 <img
                   src={causesImage}
                   alt=""
                   style={{ height: '250px', align: 'center' }}
                 />
               </div>
-              <div className="bg-light col-sm-6">
+              <div className="bg-light col-sm-9">
                 <div>
                   <h3 className="display-6">Causes</h3>
                 </div>
