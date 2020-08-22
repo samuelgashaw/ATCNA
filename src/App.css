@@ -10,6 +10,7 @@
   --footerbgColor: #121214;
 }
 * {
+  height: auto;
   /* font-family: Lato, 'Playfair Display'; */
   /* font-family: sans-serif, cursive; */
   font-family: 'Times New Roman', Times, serif;

@@ -11,7 +11,7 @@ class About extends Component {
           <div className="container ">
             <div className="bg-light">
               <div>
-                <h4 className="display-6">Who We Are</h4>
+                <h3 className="display-6">Who We Are</h3>
               </div>
               <p className="lead">
                 Hope For Tebassie (H4T) is a legally licensed non-profit

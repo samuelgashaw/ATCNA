@@ -13,6 +13,7 @@ import NotFoundpage from './components/pages/NotFoundPage';
 import Details from './components/pages/Details';
 import UnderConstruction from './components/pages/UnderConstruction';
 import { Switch, Route } from 'react-router-dom';
+import Causes from './components/pages/Causes';
 class App extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ class App extends Component {
           {/* <Route exact path="/" component={Home} /> */}
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/causes" component={Causes} />
           <Route exact path="/events" component={Events} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/details" component={Details} />

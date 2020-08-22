@@ -67,6 +67,17 @@ function Navbar() {
             <NavLink
               exact
               activeClassName="active"
+              className="nav-link text-capitalize ml-3"
+              to="/causes"
+              style={{ color: '#FFC30C' }}
+            >
+              causes
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              exact
+              activeClassName="active"
               className="nav-link  text-capitalize ml-3"
               to="/events"
               style={{ color: '#FFC30C' }}
