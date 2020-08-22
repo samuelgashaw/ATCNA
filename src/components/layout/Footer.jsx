@@ -88,13 +88,13 @@ export default Footer;
 const FooterContainer = styled.footer`
   .footer-middle {
     background: #121214;
-    padding-top: 3rem;
+    padding-top: 1rem;
     color: var(--mainYellow);
   }
 
   .footer-bottom {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
   ul li a {
     color: var(--mainYellow);

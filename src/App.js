@@ -11,7 +11,6 @@ import Events from './components/pages/Events';
 import Contact from './components/pages/Contact';
 import NotFoundpage from './components/pages/NotFoundPage';
 import Details from './components/pages/Details';
-import CreditCardPayment from './components/pages/CreditCardPayment';
 import UnderConstruction from './components/pages/UnderConstruction';
 import { Switch, Route } from 'react-router-dom';
 class App extends Component {

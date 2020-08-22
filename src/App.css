@@ -10,8 +10,9 @@
   --footerbgColor: #121214;
 }
 * {
-  font-family: Lato, 'Playfair Display';
+  /* font-family: Lato, 'Playfair Display'; */
   /* font-family: sans-serif, cursive; */
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar-toggler:focus {
   outline: none;
@@ -84,4 +85,27 @@ a.telegram {
 .ImageDescription > p {
   color: var(--mainYellow);
   opacity: 1;
+}
+
+/* boxes */
+
+#boxes {
+  margin-top: 20px;
+  background-color: yellow;
+  border: #eb3223 solid 5;
+}
+#boxes .box {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  padding: 50px;
+  text-align: center;
+}
+#boxes .box p {
+  text-align: center;
+
+  padding-block: 25px;
+}
+#boxes .box img {
+  width: 100%;
 }

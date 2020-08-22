@@ -100,7 +100,7 @@ function Navbar() {
           <li className="nav-item">
             <NavLink
               exact
-              className="text-capitalize"
+              className="text-capitalize "
               to="/donate"
               style={{ outline: 'none', color: '#FFC30C' }}
             >
