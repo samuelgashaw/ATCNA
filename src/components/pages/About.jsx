@@ -19,17 +19,20 @@ class About extends Component {
                 our hometown Tebassie, Debre Birhan, Ethiopia. We are a North
                 America based Non-Governmental Organization (NGO) that offers
                 support to most vulnerable groups in our hometown to gain access
-                to health services, clean water, and education. We are confident
-                that with our unwavering support, we aspire to engage the local
-                community in battling and eradicating poverty and expanding
-                opportunities for those disregarded and most vulnerable. We
-                passionately believe, with helping hands and support from H4T,
-                we can change our community by supporting one household at a
-                time. Hope 4 Tebassie has no affiliation with any religious or
-                political organizations. Its objective is to provide moral,
-                material and financial support to most vulnerable groups in need
-                regardless of their religion, political affiliation, gender,
-                sex, or creed.
+                to health services, clean water, and education.Founded by the
+                Tebassie Hometown Association (HTA) group, we understand the
+                need of our hometown and the work ahead of us to provide aid in
+                communities where the capacity of the local government has
+                fallen short. We are confident that with our unwavering support,
+                we aspire to engage the local community in battling and
+                eradicating poverty and expanding opportunities for those
+                disregarded and most vulnerable. We passionately believe, with
+                helping hands and support from H4T, we can change our community
+                by supporting one household at a time. Hope 4 Tebassie has no
+                affiliation with any religious or political organizations. Its
+                objective is to provide moral, material and financial support to
+                most vulnerable groups in need regardless of their religion,
+                political affiliation, gender, sex, or creed.
               </p>
             </div>
 
@@ -87,7 +90,7 @@ class About extends Component {
                 </div>
               </div>
             </div>
-            <div>
+            {/* <div>
               <h4 className="display-5">Executive Commitee</h4>
               <br></br>
               <div className="row">
@@ -219,7 +222,7 @@ class About extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </AboutUsContainer>
       </>
