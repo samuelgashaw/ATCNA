@@ -11,7 +11,7 @@ class About extends Component {
           <div className="container ">
             <div className="bg-light">
               <div>
-                <h3 className="display-6">Who We Are</h3>
+                <h3 className="display-6">About Us</h3>
               </div>
               <p className="lead">
                 Hope For Tebassie (H4T) is a legally licensed non-profit
@@ -20,7 +20,7 @@ class About extends Component {
                 America based Non-Governmental Organization (NGO) that offers
                 support to most vulnerable groups in our hometown to gain access
                 to health services, clean water, and education. Founded by the
-                Tebassie Hometown Association (THA) group, we understand the
+                Tebassie Hometown Association (HTA) group, we understand the
                 need of our hometown and the work ahead of us to provide aid in
                 communities where the capacity of the local government has
                 fallen short. We are confident that with our unwavering support,
@@ -28,17 +28,23 @@ class About extends Component {
                 eradicating poverty and expanding opportunities for those
                 disregarded and most vulnerable. We passionately believe, with
                 helping hands and support from H4T, we can change our community
-                by supporting one household at a time. Hope 4 Tebassie has no
-                affiliation with any religious or political organizations. Its
-                objective is to provide moral, material and financial support to
-                most vulnerable groups in need regardless of their religion,
-                political affiliation, gender, sex, or creed.
+                by supporting one household at a time.
+              </p>
+              <p className="lead">
+                Hope 4 Tebassie has no affiliation with any religious or
+                political organizations. Its objective is to provide moral,
+                material and financial support to most vulnerable groups in need
+                regardless of their religion, political affiliation, gender,
+                sex, or creed.
               </p>
             </div>
+            <br></br>
+            <br></br>
+            <br></br>
 
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-sm-4">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-sm-4">
                   <div className="card" style={{ width: '18rem' }}>
                     <img
                       src={Vision}
@@ -46,8 +52,8 @@ class About extends Component {
                       alt="..."
                     />
                     <div className="card-body">
-                      <h3 class="card-title">Our Vision</h3>
-                      <p className="card-text">
+                      <h3 className="card-title">Our Vision</h3>
+                      <p className="lead card-text">
                         To open opportunities and limitless possibilities to
                         most vulnerable groups who have been disregarded because
                         of their economic and social status.
@@ -64,7 +70,7 @@ class About extends Component {
                     />
                     <div className="card-body">
                       <h3 class="card-title">Our Mission</h3>
-                      <p className="card-text">
+                      <p className="lead card-text">
                         To support most vulnerable groups in our hometown,
                         Tebassie, located in Debre Berhan, Ethiopia to access
                         healthcare, clean water, and education.
@@ -81,7 +87,7 @@ class About extends Component {
                     />
                     <div className="card-body">
                       <h3 class="card-title">Core Values</h3>
-                      <p className="card-text">
+                      <p className="lead card-text">
                         We believe in Accountability, Commitment, Teamwork,
                         Integrity, Equality and Equity.
                       </p>

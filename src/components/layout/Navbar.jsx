@@ -60,7 +60,7 @@ function Navbar() {
               to="/about"
               style={{ color: '#FFC30C' }}
             >
-              about us
+              about
             </NavLink>
           </li>
           <li className="nav-item">
