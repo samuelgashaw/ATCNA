@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { InfoConsumer } from './context';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 class EventsCard extends Component {
   render() {
-    const { id, newsTitle, newsText, date } = this.props.item;
+    const { newsTitle, newsText, date } = this.props.item;
     return (
       <InfoConsumer>
         {(value) => (

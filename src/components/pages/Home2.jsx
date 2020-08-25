@@ -4,7 +4,7 @@ import Info from '../Info';
 class Home extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="bg-light container">
         <div className="row mt-5">
           <InfoConsumer>
             {(value) => {

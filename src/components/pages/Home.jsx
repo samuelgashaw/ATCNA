@@ -26,7 +26,7 @@ export default class Home extends Component {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src={logo} alt="First slide" />
+            <img className="d-block w-100" src={''} alt="First slide" />
             <div className=" ImageDescription carousel-caption d-none d-md-block ">
               {/* <h5 className=" display-4">Debre Berhan University</h5> */}
               <h5 className=" display-4">Hope 4 Tebassie Inc.</h5>

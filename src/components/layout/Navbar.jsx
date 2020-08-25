@@ -74,7 +74,7 @@ function Navbar() {
               causes
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink
               exact
               activeClassName="active"
@@ -84,7 +84,7 @@ function Navbar() {
             >
               events
             </NavLink>
-          </li>
+          </li> */}
           <li className="nav-item">
             <NavLink
               exact

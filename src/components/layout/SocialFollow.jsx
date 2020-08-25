@@ -21,9 +21,9 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a href="https://www.instagram.com/" className="instagram social">
-        {/* <FontAwesomeIcon icon={faInstagram} size="2x" /> */}
-        <img src={InstagramLogo} alt="" width="46px" height="46px" />
+        <FontAwesomeIcon icon={faInstagram} size="2x" className="primary" />
       </a>
+
       <a href="https://www.telegram.com/" className="telegram social">
         <FontAwesomeIcon icon={faTelegram} size="2x" />
       </a>

@@ -28,8 +28,8 @@
 }
 
 a.social {
-  padding: 0px 50px;
-  margin: 0 1rem 1rem 3rem;
+  padding: 0px 25px;
+  /* margin: 0 1rem 1rem 3rem; */
   transition: transform 250ms;
   display: inline-block;
 }
@@ -50,7 +50,7 @@ a.twitter {
 }
 
 a.instagram {
-  color: black;
+  color: red;
 }
 a.telegram {
   color: #49a1eb;
@@ -109,4 +109,24 @@ a.telegram {
 }
 #boxes .box img {
   width: 100%;
+}
+
+#watermark {
+  height: 450px;
+  width: 600px;
+  position: relative;
+  overflow: hidden;
+}
+#watermark img {
+  max-width: 100%;
+}
+#watermark p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 18px;
+  pointer-events: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
 }

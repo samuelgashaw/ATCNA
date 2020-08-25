@@ -6,7 +6,10 @@ function Footer() {
     <FooterContainer className="main-footer">
       <div className="footer-middle">
         <div className="container">
-          <SocialFollow />
+          <center>
+            <h5 className="display-5">Follow us</h5>
+            <SocialFollow />
+          </center>
           {/* <div className="row">
             <div className="col-md-3 col-sm-6 text-capitalize">
               <h4>contact us</h4>

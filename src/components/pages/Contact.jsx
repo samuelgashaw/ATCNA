@@ -4,7 +4,7 @@ class Contacts extends Component {
 
   render() {
     return (
-      <section className="my-5 py-5">
+      <section className="bg-light my-5 py-5">
         <div className="container">
           <div className="row">
             <div className="col-md-7">
