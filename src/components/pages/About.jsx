@@ -11,10 +11,10 @@ class About extends Component {
           <div className="container ">
             <div>
               <div>
-                <h3 className="display-6">About Us</h3>
+                <h4 className="display-4">About Us</h4>
               </div>
               <div className="text-justify">
-                <p className="lead">
+                <p className="lead text-dark">
                   Hope For Tebassie (H4T) is a legally licensed non-profit
                   organization devoted to give hope for most vulnerable groups
                   in our hometown Tebassie, Debre Birhan, Ethiopia. We are a
@@ -31,7 +31,7 @@ class About extends Component {
                   believe, with helping hands and support from H4T, we can
                   change our community by supporting one household at a time.
                 </p>
-                <p className="lead">
+                <p className="lead text-dark">
                   Hope 4 Tebassie has no affiliation with any religious or
                   political organizations. Its objective is to provide moral,
                   material and financial support to most vulnerable groups in
@@ -45,7 +45,7 @@ class About extends Component {
             <br></br>
 
             <div class="card-deck">
-              <div class="card border-warning">
+              <div class="card border-danger">
                 <img
                   src={Vision}
                   class="card-img-top rounded"
@@ -53,14 +53,14 @@ class About extends Component {
                 />
                 <div class="card-body">
                   <h3 class="card-title">Our Vission</h3>
-                  <p class="card-text lead text-justify">
+                  <p class="card-text lead text-justify text-primary">
                     To open opportunities and limitless possibilities to most
                     vulnerable groups who have been disregarded because of their
                     economic and social status.
                   </p>
                 </div>
               </div>
-              <div class="card border-warning">
+              <div class="card border-primary">
                 <img
                   src={Mission}
                   class="card-img-top rounded "
@@ -68,7 +68,7 @@ class About extends Component {
                 />
                 <div class="card-body">
                   <h3 class="card-title">Our Mission</h3>
-                  <p class="card-text lead text-justify">
+                  <p class="card-text lead text-justify text-primary">
                     To support most vulnerable groups in our hometown, Tebassie,
                     located in Debre Berhan, Ethiopia to access healthcare,
                     clean water, and education.
@@ -83,7 +83,7 @@ class About extends Component {
                 />
                 <div class="card-body">
                   <h3 class="card-title">Core Values</h3>
-                  <p class="card-text lead text-justify">
+                  <p class="card-text lead text-justify text-primary">
                     We believe in Accountability, Commitment, Teamwork,
                     Integrity, Equality and Equity.
                   </p>

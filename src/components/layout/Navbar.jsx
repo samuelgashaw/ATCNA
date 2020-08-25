@@ -108,7 +108,7 @@ function Navbar() {
             </NavLink>
           </li>
 
-          <li className="nav-item">
+          <li className="">
             <NavLink
               exact
               className="text-capitalize "
