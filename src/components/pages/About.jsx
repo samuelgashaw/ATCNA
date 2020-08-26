@@ -3,12 +3,16 @@ import styled from 'styled-components';
 import Mission from '../../images/mission.jpg';
 import Vision from '../../images/vision.jpg';
 import CoreValues from '../../images/core-values.jpg';
+import bgImg from '../../images/lightBlue.jpg';
 class About extends Component {
   render() {
     return (
       <>
-        <AboutUsContainer className=" py-5 bg-light">
-          <div className="container ">
+        <AboutUsContainer className=" py-3">
+          <div
+            className="container "
+            style={{ background: 'url(' + { bgImg } + ')' }}
+          >
             <div>
               <div>
                 <h4 className="display-4">About Us</h4>
@@ -40,189 +44,42 @@ class About extends Component {
                 </p>
               </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
+          </div>
+          <div className="container ">
+            <div id="features" className="mb-500">
+              <div className="featureBox bg-warning">
+                <i className="fas fa-binoculars fa-3x"></i>
+                <h3>Our Vission</h3>
+                <p className="">
+                  To open opportunities and limitless possibilities to most
+                  vulnerable groups who have been disregarded because of their
+                  economic and social status.
+                </p>
+              </div>
+              <div className="featureBox bg-warning">
+                <i className="fas fa-dot-circle fa-3x"></i>
+                <h3>Our Mission</h3>
+                <p className="">
+                  To support most vulnerable groups in our hometown, Tebassie,
+                  located in Debre Berhan, Ethiopia to access healthcare, clean
+                  water, and education.
+                </p>
+              </div>
 
-            <div class="card-deck">
-              <div class="card border-danger">
-                <img
-                  src={Vision}
-                  class="card-img-top rounded"
-                  alt="Our Vission"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Our Vission</h3>
-                  <p class="card-text lead text-justify text-primary">
-                    To open opportunities and limitless possibilities to most
-                    vulnerable groups who have been disregarded because of their
-                    economic and social status.
-                  </p>
-                </div>
-              </div>
-              <div class="card border-primary">
-                <img
-                  src={Mission}
-                  class="card-img-top rounded "
-                  alt="Our Mission"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Our Mission</h3>
-                  <p class="card-text lead text-justify text-primary">
-                    To support most vulnerable groups in our hometown, Tebassie,
-                    located in Debre Berhan, Ethiopia to access healthcare,
-                    clean water, and education.
-                  </p>
-                </div>
-              </div>
-              <div class="card border-warning">
-                <img
-                  src={CoreValues}
-                  class="card-img-top rounded "
-                  alt="Core Values"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Core Values</h3>
-                  <p class="card-text lead text-justify text-primary">
-                    We believe in Accountability, Commitment, Teamwork,
-                    Integrity, Equality and Equity.
-                  </p>
-                </div>
+              <div className="featureBox bg-warning">
+                <i className="fas fa-user-friends fa-3x"></i>
+                <h3>Core Values</h3>
+                <p className="">
+                  We believe in Accountability, Commitment, Teamwork, Integrity,
+                  Equality and Equity.
+                  <br></br>
+                  <br></br>
+                </p>
               </div>
             </div>
-            {/* <div>
-              <h4 className="display-5">Executive Commitee</h4>
-              <br></br>
-              <div className="row">
-                <div className="card-deck">
-                  <div className="card" style={{ border: '0' }}>
-                    <img
-                      src="../../../images/melesebeyene.jpg"
-                      className="card-img-top rounded-circle rounded-sm img-fluid img-thumbnail"
-                      alt="..."
-                    />
-                    <center>
-                      <div className="card-body card-body text-black rgba-black-light p-0">
-                        <strong>Melese Abate</strong>
-                        <h6 className="card-title">
-                          <kbd>Chairman</kbd>
-                        </h6>
-                      </div>
-                    </center>
-                  </div>
-                  <div className="card" style={{ border: '0' }}>
-                    <img
-                      src="../../../images/bayush.jpg"
-                      className="card-img-top rounded-circle rounded-sm img-fluid img-thumbnail"
-                      alt="..."
-                    />
-                    <center>
-                      <div className="card-body text-black rgba-black-light p-0">
-                        <strong>Bayush Gebrewold</strong>
-                        <h6 className="card-title">
-                          <kbd>Vice Chairman</kbd>
-                        </h6>
-                      </div>
-                    </center>
-                  </div>
-                  <div className="card" style={{ border: '0' }}>
-                    <img
-                      src="../../../images/alayu.jpg"
-                      className="card-img-top rounded-circle img-fluid img-thumbnail"
-                      alt="..."
-                    />
-                    <center>
-                      <div className="card-body text-black rgba-black-light p-0">
-                        <strong>Alayu Tadesse</strong>
-                        <h6 className="card-title">
-                          <kbd>Secretary</kbd>
-                        </h6>
-                      </div>
-                    </center>
-                  </div>
-                  <div className="card " style={{ border: '0' }}>
-                    <img
-                      src="../../../images/sam.png"
-                      className="card-img-top rounded-circle rounded-sm img-fluid img-thumbnail"
-                      alt="..."
-                    />
-                    <center>
-                      <div className="card-body text-black rgba-black-light p-0">
-                        <strong>Samuel Gashaw</strong>{' '}
-                        <h6 className="card-title">
-                          <kbd>Public Relation</kbd>
-                        </h6>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="card-deck">
-                  <div className="card" style={{ border: '0' }}>
-                    <img
-                      src="../../../images/mulugeta.jpg"
-                      className="card-img-top rounded-circle img-fluid img-thumbnail"
-                      alt="..."
-                    />
-                    <center>
-                      <div className="card-body text-black rgba-black-light p-0">
-                        <strong>Mulugeta Tsigie</strong>
-                        <h6 className="card-title">
-                          <kbd>Treasurer</kbd>
-                        </h6>
-                      </div>
-                    </center>
-                  </div>
-
-                  <div className="card" style={{ border: '0' }}>
-                    <img
-                      src="../../../images/abyot.jpg"
-                      className="card-img-top rounded-circle img-fluid img-thumbnail"
-                      alt="..."
-                    />
-                    <center>
-                      <div className="card-body text-black rgba-black-light p-0">
-                        <strong>Abyot Hundessa</strong>{' '}
-                        <h6 className="card-title">
-                          <kbd>Audit and Control Chairman</kbd>
-                        </h6>
-                      </div>
-                    </center>
-                  </div>
-                  <div className="card" style={{ border: '0' }}>
-                    <img
-                      src="../../../images/zele.jpg"
-                      className="card-img-top rounded-circle img-fluid img-thumbnail"
-                      alt="..."
-                    />
-                    <center>
-                      <div className="card-body text-black rgba-black-light p-0">
-                        <strong>Zelalem Gizaw</strong>{' '}
-                        <h6 className="card-title">
-                          <kbd>Audit and Control Secretary</kbd>
-                        </h6>
-                      </div>
-                    </center>
-                  </div>
-                  <div className="card" style={{ border: '0' }}>
-                    <img
-                      src="../../../images/mulu.jpg"
-                      className="card-img-top rounded-circle img-fluid img-thumbnail"
-                      alt="..."
-                    />
-                    <center>
-                      <div className="card-body text-black rgba-black-light p-0">
-                        <strong>Mulu Setargie</strong>
-                        <h6 className="card-title m-auto">
-                          <kbd>Audit and Control Member</kbd>
-                        </h6>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-              </div>
-            </div>*/}
+            <div className="text-white">
+              <center>.</center>
+            </div>
           </div>
         </AboutUsContainer>
       </>

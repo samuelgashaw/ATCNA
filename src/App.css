@@ -8,12 +8,16 @@
   --mainDark: #000;
   /* --footerbgColor: rgba(52, 58, 64); */
   --footerbgColor: #121214;
+  --blueBg: url('../../Client/src/images/lightBlue.jpg') no-repeat;
 }
 * {
-  height: auto;
+  /* height: auto; */
   /* font-family: Lato, 'Playfair Display'; */
   /* font-family: sans-serif, cursive; */
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
+
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navbar-toggler:focus {
   outline: none;
@@ -111,22 +115,30 @@ a.telegram {
   width: 100%;
 }
 
-#watermark {
-  height: 450px;
-  width: 600px;
-  position: relative;
-  overflow: hidden;
+/* Features */
+
+.featureBox {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
 }
-#watermark img {
-  max-width: 100%;
+
+.featureBox i {
+  margin-bottom: 10px;
 }
-#watermark p {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+.bg-dark {
+  background: #333;
   color: #fff;
-  font-size: 18px;
-  pointer-events: none;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
+}
+
+.bg-ligh {
+  background: #4fb7f7;
+  color: #333;
+}
+
+.bg-primar {
+  background: #ffc30c;
+  color: #333;
 }

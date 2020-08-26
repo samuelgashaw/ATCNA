@@ -115,8 +115,8 @@ function Navbar() {
               to="/donate"
               style={{ outline: 'none', color: '#FFC30C' }}
             >
-              <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-outline-warning my-2 my-sm-0">
+              <form className="form-inline my-2 my-lg-0">
+                <button className="btn btn-outline-warning my-2 my-sm-0">
                   Donate
                 </button>
               </form>
