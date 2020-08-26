@@ -7,12 +7,9 @@ import bgImg from '../../images/lightBlue.jpg';
 class About extends Component {
   render() {
     return (
-      <>
-        <AboutUsContainer className=" py-3">
-          <div
-            className="container "
-            style={{ background: 'url(' + { bgImg } + ')' }}
-          >
+      <div>
+        <AboutUsContainer className="py-3 bg-light" id="aboutDiv">
+          <div className="container ">
             <div>
               <div>
                 <h4 className="display-4">About Us</h4>
@@ -47,31 +44,35 @@ class About extends Component {
           </div>
           <div className="container ">
             <div id="features" className="mb-500">
-              <div className="featureBox bg-warning">
+              <div className="featureBox bg-light opacity-2">
                 <i className="fas fa-binoculars fa-3x"></i>
                 <h3>Our Vission</h3>
-                <p className="">
+                <p className="lead">
                   To open opportunities and limitless possibilities to most
                   vulnerable groups who have been disregarded because of their
                   economic and social status.
+                  <br></br>
+                  <br></br>
                 </p>
               </div>
               <div className="featureBox bg-warning">
                 <i className="fas fa-dot-circle fa-3x"></i>
                 <h3>Our Mission</h3>
-                <p className="">
+                <p className="lead">
                   To support most vulnerable groups in our hometown, Tebassie,
                   located in Debre Berhan, Ethiopia to access healthcare, clean
                   water, and education.
                 </p>
               </div>
 
-              <div className="featureBox bg-warning">
+              <div className="featureBox bg-light">
                 <i className="fas fa-user-friends fa-3x"></i>
                 <h3>Core Values</h3>
-                <p className="">
+                <p className="lead">
                   We believe in Accountability, Commitment, Teamwork, Integrity,
                   Equality and Equity.
+                  <br></br>
+                  <br></br>
                   <br></br>
                   <br></br>
                 </p>
@@ -82,7 +83,7 @@ class About extends Component {
             </div>
           </div>
         </AboutUsContainer>
-      </>
+      </div>
     );
   }
 }

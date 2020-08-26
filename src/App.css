@@ -142,3 +142,10 @@ a.telegram {
   background: #ffc30c;
   color: #333;
 }
+
+#aboutDiv {
+  background: url('images/lightBlue.jpg') repeat;
+  background-size: contain;
+  background-position: top;
+  background: cover;
+}

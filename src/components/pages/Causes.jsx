@@ -6,9 +6,9 @@ import styled from 'styled-components';
 class Causes extends Component {
   render() {
     return (
-      <>
-        <CausesContainer className="bg-light my-3 py-5">
-          <div className="container ">
+      <div id="aboutDiv">
+        <CausesContainer className="my-0 py-0" id="aboutDiv">
+          <div className="container " id="aboutDiv">
             <div className="row">
               <div className="col-sm-3">
                 <img
@@ -17,7 +17,7 @@ class Causes extends Component {
                   style={{ height: '100%', width: '100%', align: 'center' }}
                 />
               </div>
-              <div className="bg-light col-sm-9">
+              <div className="bg-light col-sm-9" id="aboutDiv">
                 <div>
                   <h4 className="display-4">Causes</h4>
                 </div>
@@ -34,13 +34,17 @@ class Causes extends Component {
                 <br />
                 <br />
                 <br />
+
+                <br />
+                <br />
+                <br />
                 <br />
                 <br />
               </div>
             </div>
           </div>
         </CausesContainer>
-      </>
+      </div>
     );
   }
 }

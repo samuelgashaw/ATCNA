@@ -12,6 +12,7 @@
     "bootstrap": "^4.5.0",
     "netlify-cli": "^2.54.0",
     "react": "^16.13.1",
+    "react-animated-text": "^0.1.4",
     "react-credit-cards": "^0.8.3",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",

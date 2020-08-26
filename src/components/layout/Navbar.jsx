@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../logo.png';
+import logo from '../../images/logo11.png';
 import EthioUsaFlag from '../../images/ethiousa.jpg';
 import { NavLink } from 'react-router-dom';
 function Navbar() {
