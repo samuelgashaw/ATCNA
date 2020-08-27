@@ -5,7 +5,8 @@
   --mainYellow: #ffc30c;
   --mainBlue: #007bff;
   --mainWhite: #fff;
-  --mainDark: #000;
+  --mainDark: rgba(54, 129, 175, 0.2);
+  /* #000; */
   /* --footerbgColor: rgba(52, 58, 64); */
   --footerbgColor: #121214;
   --blueBg: url('../../Client/src/images/lightBlue.jpg') no-repeat;
@@ -17,7 +18,8 @@
   /* font-family: 'Times New Roman', Times, serif; */
 
   margin: 0px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
 }
 .navbar-toggler:focus {
   outline: none;
@@ -118,10 +120,11 @@ a.telegram {
 /* Features */
 
 .featureBox {
+  margin-top: 100px;
   float: left;
   width: 33.3%;
-  padding: 50px;
-  text-align: center;
+  padding: 30px;
+  text-align: left;
 }
 
 .featureBox i {
@@ -133,19 +136,19 @@ a.telegram {
   color: #fff;
 }
 
-.bg-ligh {
+.bg-light {
   background: #4fb7f7;
   color: #333;
 }
 
-.bg-primar {
+.bg-primary {
   background: #ffc30c;
   color: #333;
 }
 
 #aboutDiv {
-  background: url('images/lightBlue.jpg') repeat;
+  /* background: url('images/lightBlue.jpg') no-repeat;
   background-size: contain;
   background-position: top;
-  background: cover;
+  background: cover; */
 }

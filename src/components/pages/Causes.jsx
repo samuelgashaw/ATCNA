@@ -6,9 +6,9 @@ import styled from 'styled-components';
 class Causes extends Component {
   render() {
     return (
-      <div id="aboutDiv">
-        <CausesContainer className="my-0 py-0" id="aboutDiv">
-          <div className="container " id="aboutDiv">
+      <div>
+        <CausesContainer className="my-0 py-0">
+          <div className="container ">
             <div className="row">
               <div className="col-sm-3">
                 <img

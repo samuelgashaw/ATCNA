@@ -10,43 +10,46 @@ class About extends Component {
       <div>
         <AboutUsContainer className="py-3 bg-light" id="aboutDiv">
           <div className="container ">
-            <div>
-              <div>
-                <h4 className="display-4">About Us</h4>
+            <div className="row">
+              <div className="col-md-6">
+                <div className="text-justify bg-light">
+                  <h3 className="display-5 font-weight-bold">About Us</h3>
+
+                  <p className="lead text-dark">
+                    Hope For Tebassie (H4T) is a legally licensed non-profit
+                    organization devoted to give hope for most vulnerable groups
+                    in our hometown Tebassie, Debre Birhan, Ethiopia. We are a
+                    USA based Non-Governmental Organization (NGO) that offers
+                    support to most vulnerable groups in our hometown to gain
+                    access to health services, clean water, and education.
+                    Founded by the Tebassie Hometown Association (HTA) group, we
+                    understand the need of our hometown and the work ahead of us
+                    to provide aid in communities where the capacity of the
+                    local government has fallen short. We are confident that
+                    with our unwavering support, we aspire to engage the local
+                    community in battling and eradicating poverty and expanding
+                    opportunities for those disregarded and most vulnerable. We
+                    passionately believe, with helping hands and support from
+                    H4T, we can change our community by supporting one household
+                    at a time.
+                  </p>
+                  <p className="lead text-dark">
+                    Hope 4 Tebassie has no affiliation with any religious or
+                    political organizations. Its objective is to provide moral,
+                    material and financial support to most vulnerable groups in
+                    need regardless of their religion, political affiliation,
+                    gender, sex, or creed.
+                  </p>
+                </div>
               </div>
-              <div className="text-justify">
-                <p className="lead text-dark">
-                  Hope For Tebassie (H4T) is a legally licensed non-profit
-                  organization devoted to give hope for most vulnerable groups
-                  in our hometown Tebassie, Debre Birhan, Ethiopia. We are a
-                  North America based Non-Governmental Organization (NGO) that
-                  offers support to most vulnerable groups in our hometown to
-                  gain access to health services, clean water, and education.
-                  Founded by the Tebassie Hometown Association (HTA) group, we
-                  understand the need of our hometown and the work ahead of us
-                  to provide aid in communities where the capacity of the local
-                  government has fallen short. We are confident that with our
-                  unwavering support, we aspire to engage the local community in
-                  battling and eradicating poverty and expanding opportunities
-                  for those disregarded and most vulnerable. We passionately
-                  believe, with helping hands and support from H4T, we can
-                  change our community by supporting one household at a time.
-                </p>
-                <p className="lead text-dark">
-                  Hope 4 Tebassie has no affiliation with any religious or
-                  political organizations. Its objective is to provide moral,
-                  material and financial support to most vulnerable groups in
-                  need regardless of their religion, political affiliation,
-                  gender, sex, or creed.
-                </p>
-              </div>
+              <div className="col-md-6"></div>
             </div>
           </div>
-          <div className="container ">
+          <div className="container">
             <div id="features" className="mb-500">
-              <div className="featureBox bg-light opacity-2">
-                <i className="fas fa-binoculars fa-3x"></i>
-                <h3>Our Vission</h3>
+              <div className="featureBox bg-light ">
+                {/* <i className="fas fa-binoculars fa-3x"></i> */}
+                <h3 className="display-5 font-weight-bold">Our Vission</h3>
                 <p className="lead">
                   To open opportunities and limitless possibilities to most
                   vulnerable groups who have been disregarded because of their
@@ -55,19 +58,19 @@ class About extends Component {
                   <br></br>
                 </p>
               </div>
-              <div className="featureBox bg-warning">
-                <i className="fas fa-dot-circle fa-3x"></i>
-                <h3>Our Mission</h3>
-                <p className="lead">
+              <div className="featureBox bg-light ">
+                {/* <i className="fas fa-dot-circle fa-3x"></i> */}
+                <h3 className="display-5 font-weight-bold">Our Mission</h3>
+                <p className="lead font-weight-light">
                   To support most vulnerable groups in our hometown, Tebassie,
                   located in Debre Berhan, Ethiopia to access healthcare, clean
                   water, and education.
                 </p>
               </div>
 
-              <div className="featureBox bg-light">
-                <i className="fas fa-user-friends fa-3x"></i>
-                <h3>Core Values</h3>
+              <div className="featureBox text-light bg-light ">
+                {/* <i className="fas fa-user-friends fa-3x"></i> */}
+                <h3 className="display-5 font-weight-bold">Core Values</h3>
                 <p className="lead">
                   We believe in Accountability, Commitment, Teamwork, Integrity,
                   Equality and Equity.
@@ -78,7 +81,7 @@ class About extends Component {
                 </p>
               </div>
             </div>
-            <div className="text-white">
+            <div className="text-light">
               <center>.</center>
             </div>
           </div>

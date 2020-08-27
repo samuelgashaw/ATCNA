@@ -13,26 +13,17 @@ export default class Home extends Component {
       <div id="aboutDiv">
         <div className="container py-5  bg-light" id="aboutDiv">
           <div className="row">
-            <div className="col-sm-3">
-              <img
-                src={logo}
-                alt=""
-                style={{ height: '100%', width: '100%', align: 'center' }}
-              />
-            </div>
             <div className="col-sm-9">
-              <div className="col-sm-12 bg-dark rounded-circle" colspan="2">
-                <h5 className=" display-4">
-                  <center>
-                    <Wave
-                      text="Hope 4 Tebassie Inc."
-                      effect="stretch"
-                      effectChange="0.5"
-                    />
-                  </center>
-                </h5>
+              <div className="col-sm-12 bg-light" colspan="2">
+                <h3 className=" display-5 font-weight-bold text-center">
+                  <Wave
+                    text="Hope 4 Tebassie Inc."
+                    effect="stretch"
+                    effectChange="0.5"
+                  />
+                </h3>
               </div>
-              <p className="lead text-justify p-5 bg-dark rounded">
+              <p className="lead text-justify p-5 bg-light rounded">
                 Hope For Tebassie (H4T) is a legally licensed non-profit
                 organization devoted to give hope for most vulnerable groups in
                 our hometown Tebassie, Debre Birhan, Ethiopia. We are a North
@@ -47,6 +38,13 @@ export default class Home extends Component {
                 eradicating poverty and expanding opportunities for those
                 disregarded and most vulnerable.
               </p>
+            </div>
+            <div className="col-sm-3 bg-light">
+              <img
+                src={logo}
+                alt=""
+                style={{ height: '100%', width: '100%', align: 'center' }}
+              />
             </div>
           </div>
         </div>
