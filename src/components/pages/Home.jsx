@@ -10,7 +10,7 @@ import { Wave } from 'react-animated-text';
 export default class Home extends Component {
   render() {
     return (
-      <div id="aboutDiv">
+      <div id="aboutDiv" className="bg-light">
         <div className="container py-5  bg-light" id="aboutDiv">
           <div className="row">
             <div className="col-sm-9">
@@ -26,17 +26,17 @@ export default class Home extends Component {
               <p className="lead text-justify p-5 bg-light rounded">
                 Hope For Tebassie (H4T) is a legally licensed non-profit
                 organization devoted to give hope for most vulnerable groups in
-                our hometown Tebassie, Debre Birhan, Ethiopia. We are a North
-                America based Non-Governmental Organization (NGO) that offers
-                support to most vulnerable groups in our hometown to gain access
-                to health services, clean water, and education. Founded by the
-                Tebassie Hometown Association (HTA) group, we understand the
-                need of our hometown and the work ahead of us to provide aid in
-                communities where the capacity of the local government has
-                fallen short. We are confident that with our unwavering support,
-                we aspire to engage the local community in battling and
-                eradicating poverty and expanding opportunities for those
-                disregarded and most vulnerable.
+                our hometown Tebassie, Debre Birhan, Ethiopia. We are a USA
+                based Non-Governmental Organization (NGO) that offers support to
+                most vulnerable groups in our hometown to gain access to health
+                services, clean water, and education. Founded by the Tebassie
+                Hometown Association (HTA) group, we understand the need of our
+                hometown and the work ahead of us to provide aid in communities
+                where the capacity of the local government has fallen short. We
+                are confident that with our unwavering support, we aspire to
+                engage the local community in battling and eradicating poverty
+                and expanding opportunities for those disregarded and most
+                vulnerable.
               </p>
             </div>
             <div className="col-sm-3 bg-light">

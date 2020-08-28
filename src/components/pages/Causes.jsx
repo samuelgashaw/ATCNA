@@ -7,7 +7,7 @@ class Causes extends Component {
   render() {
     return (
       <div>
-        <CausesContainer className="my-0 py-0">
+        <CausesContainer className="my-0 py-0 bg-light">
           <div className="container ">
             <div className="row">
               <div className="col-sm-3">

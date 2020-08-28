@@ -4,7 +4,7 @@ import styled from 'styled-components';
 class NotFoundPage extends Component {
   render() {
     return (
-      <ComponentNotFound className="container">
+      <ComponentNotFound className="container bg-light">
         <div className="row">
           <div className="col-md-12">
             <div className="error-template">
