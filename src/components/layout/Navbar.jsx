@@ -24,7 +24,7 @@ function Navbar() {
         />
 
         <h2 className="display-5 d-inline-block align-middle">
-          hope for tebassie
+          &nbsp; hope for tebassie
           <span style={{ color: '#4FB7F7' }}> (H4T)</span>
         </h2>
       </NavLink>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import SocialFollow from './SocialFollow';
 function Footer() {
   return (
-    <FooterContainer className="main-footer">
+    <FooterContainer className="main-footer mb-0">
       <div className="footer-middle">
         <div className="container">
           <center>
@@ -98,6 +98,7 @@ const FooterContainer = styled.footer`
   .footer-bottom {
     padding-top: 0rem;
     padding-bottom: 0rem;
+    margin-bottom: 0;
   }
   ul li a {
     color: var(--mainYellow);
