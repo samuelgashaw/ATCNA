@@ -96,7 +96,7 @@ function Navbar() {
               contact us
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink
               exact
               activeClassName="active"
@@ -106,7 +106,7 @@ function Navbar() {
             >
               Login
             </NavLink>
-          </li>
+          </li> */}
 
           <li className="">
             <NavLink
