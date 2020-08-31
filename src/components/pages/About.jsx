@@ -27,16 +27,20 @@ class About extends Component {
                     USA based Non-Governmental Organization (NGO) that offers
                     support to most vulnerable groups in our hometown to gain
                     access to health services, clean water, and education.
+                  </p>
+                  <p className="lead text-dark">
                     Founded by the Tebassie Hometown Association (HTA) group, we
                     understand the need of our hometown and the work ahead of us
                     to provide aid in communities where the capacity of the
-                    local government has fallen short. We are confident that
-                    with our unwavering support, we aspire to engage the local
-                    community in battling and eradicating poverty and expanding
-                    opportunities for those disregarded and most vulnerable. We
-                    passionately believe, with helping hands and support from
-                    H4T, we can change our community by supporting one household
-                    at a time.
+                    local government has fallen short.
+                  </p>
+                  <p className="lead text-dark">
+                    We are confident that with our unwavering support, we aspire
+                    to engage the local community in battling and eradicating
+                    poverty and expanding opportunities for those disregarded
+                    and most vulnerable. We passionately believe, with helping
+                    hands and support from H4T, we can change our community by
+                    supporting one household at a time.
                   </p>
                   <p className="lead text-dark">
                     Hope 4 Tebassie has no affiliation with any religious or
@@ -65,7 +69,7 @@ class About extends Component {
                   </div>
                   <div class="col-md-6">
                     <img
-                      class="my-5  z-depth-2 float-left"
+                      class="my-5 z-depth-2 float-left"
                       alt="100x100"
                       src={Education}
                       data-holder-rendered="true"
@@ -79,7 +83,7 @@ class About extends Component {
                   </div>
                   <div class="col-md-12 align-self-center ">
                     <img
-                      class=" z-depth-2"
+                      class="z-depth-2"
                       alt="100x100"
                       src={Health}
                       data-holder-rendered="true"
@@ -87,7 +91,6 @@ class About extends Component {
                         width: '50%',
                         height: '300px',
                         margin: '0px',
-                        padding: '0px',
                         borderRadius: '25px',
                         opacity: 0.65,
                       }}
@@ -104,7 +107,7 @@ class About extends Component {
           >
             <div id="features" className="mb-500 ">
               <div className="featureBox text-center">
-                {/* <i className="fas fa-binoculars fa-3x"></i> */}
+                <i className="fas fa-binoculars fa-3x"></i>
                 <h3 className="display-5 font-weight-bold ">Our Vission</h3>
                 <p className="lead" style={{ backgroundColor: '#ffc30c' }}>
                   To open opportunities and limitless possibilities to most
@@ -115,7 +118,7 @@ class About extends Component {
                 </p>
               </div>
               <div className="featureBox text-center ">
-                {/* <i className="fas fa-dot-circle fa-3x"></i> */}
+                <i className="fas fa-dot-circle fa-3x"></i>
                 <h3 className="display-5 font-weight-bold">Our Mission</h3>
                 <p className="lead font-weight-light">
                   To support most vulnerable groups in our hometown, Tebassie,
@@ -125,7 +128,7 @@ class About extends Component {
               </div>
 
               <div className="featureBox text-center ">
-                {/* <i className="fas fa-user-friends fa-3x"></i> */}
+                <i className="fas fa-user-friends fa-3x"></i>
                 <h3 className="display-5 font-weight-bold">Core Values</h3>
                 <p className="lead">
                   We believe in Accountability, Commitment, Teamwork, Integrity,
