@@ -7,7 +7,7 @@ function Navbar() {
     <nav
       className="navbar navbar-expand-lg navbar-dark"
       //  sticky-top
-      style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}
+      style={{ backgroundColor: 'rgba(0, 0, 0, 1)' }}
     >
       <NavLink
         exact

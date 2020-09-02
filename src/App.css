@@ -68,7 +68,6 @@ a.telegram {
   border-bottom: 5px solid rgb(82, 182, 246);
 }
 .nav-item :hover {
-  /* border-radius: 25px; */
   font-weight: bolder;
   background-color: rgba(54, 129, 175, 0.2);
   transform: translateY(-2px);
@@ -151,9 +150,86 @@ a.telegram {
   color: #333;
 }
 
-#aboutDiv {
-  /* background: url('images/lightBlue.jpg') no-repeat;
-  background-size: contain;
-  background-position: top;
-  background: cover; */
+/* fancy div  */
+
+.uparrowdiv,
+.downarrowdiv,
+.leftarrowdiv,
+.rightarrowdiv {
+  width: 600px;
+  min-height: 40px; /*min height of DIV should be set to at least 2x the width of the arrow*/
+  background: black;
+  opacity: 0.75;
+  color: white;
+  padding: 5px;
+  position: relative;
+  word-wrap: break-word;
+  -moz-border-radius: 5px; /*add some nice CSS3 round corners*/
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+.uparrowdiv:after {
+  /*arrow added to uparrowdiv DIV*/
+  content: '';
+  display: block;
+  position: absolute;
+  top: -20px; /*should be set to -border-width x 2 */
+  left: 30px;
+  width: 0;
+  height: 0;
+  border-color: transparent transparent black transparent; /*border color should be same as div div background color*/
+  border-style: solid;
+  border-width: 10px;
+}
+
+.downarrowdiv:after {
+  /*arrow added to downarrowdiv DIV*/
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100%; /*should be set to 100% */
+  left: 30px;
+  width: 0;
+  height: 0;
+  border-color: black transparent transparent transparent; /*border color should be same as div div background color*/
+  border-style: solid;
+  border-width: 10px;
+}
+
+.leftarrowdiv:after {
+  /*arrow added to leftarrowdiv DIV*/
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: -20px; /*should be set to -border-width x 2 */
+  width: 0;
+  height: 0;
+  border-color: transparent black transparent transparent; /*border color should be same as div div background color*/
+  border-style: solid;
+  border-width: 10px;
+}
+
+.rightarrowdiv:after {
+  /*arrow added to rightarrowdiv DIV*/
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 100%; /*should be set to 100% */
+  width: 0;
+  height: 0;
+  border-color: transparent transparent transparent black; /*border color should be same as div div background color*/
+  border-style: solid;
+  border-width: 10px;
+}
+
+#curve {
+  height: '100px';
+  width: '100px';
+  box-shadow: 5px 5px 8px #818181;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
