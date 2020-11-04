@@ -11,16 +11,22 @@
   --footerbgColor: #121214;
   --blueBg: url('../../Client/src/images/lightBlue.jpg') no-repeat;
 }
+#mainPage {
+  margin: 0px 100px 0px 100px;
+}
+#navPage {
+  margin: 0px;
+}
 * {
   /* height: auto; */
-  /* font-family: Lato, 'Playfair Display'; */
+  font-family: Lato, 'Playfair Display';
   /* font-family: sans-serif, cursive; */
   /* font-family: 'Times New Roman', Times, serif; */
 
-  margin: 0px;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   /* font-family: 'Segoe UI', sans-serif; */
+  /* font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif; */
 }
 .navbar-toggler:focus {
   outline: none;
@@ -227,8 +233,9 @@ a.telegram {
 }
 
 #curve {
-  height: '100px';
-  width: '100px';
+  height: 50px;
+  width: 100%;
+  padding: 10px;
   box-shadow: 5px 5px 8px #818181;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 25px;

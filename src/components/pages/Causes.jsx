@@ -32,7 +32,7 @@ class Causes extends Component {
                     Our first fundraising since becoming licensed is focused to
                     raise funds to provide meals for the Holiday, Ethiopian New
                     Year, “Enkutatash 2013” . We are most fortunate to not have
-                    to worry about where our next meal is coming from, and We
+                    to worry about where our next meal is coming from, and we
                     hope we will never have to be in such an agonizing
                     situation. However, in Tebassie Ethiopia there are many
                     families who must choose between feeding their children or
@@ -43,9 +43,10 @@ class Causes extends Component {
                     community’s lives in a day or even in a year, we are
                     committed to do what we can one day at a time with the help
                     of individuals like you. That is why we decided to kick off
-                    this great venture at the start of the New Year, Enkutatash
-                    2013 fundraising campaign. Help us to assist families to
-                    have a holiday meal and put a smile on their face.
+                    this great venture at the start of the Ethiopian New Year,
+                    Enkutatash 2013 fundraising campaign. Help us to assist
+                    families to have a holiday meal and put a smile on their
+                    face.
                   </p>
                   <p className="lead text-justify">
                     We thank you in advance for supporting our efforts! We
@@ -99,7 +100,7 @@ class Causes extends Component {
               </div>
               <br />
 
-              <p className="display-5 lead text-justify font-weight-bold">
+              <p className="display-5 lead font-weight-bold">
                 Please donate via
                 <img
                   src={zelle}

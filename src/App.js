@@ -17,22 +17,25 @@ import Causes from './components/pages/Causes';
 class App extends Component {
   render() {
     return (
-      <>
+      <div id="navPage">
         <Navbar />
-        <Switch>
-          {/* <Route exact path="/" component={Home} /> */}
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/causes" component={Causes} />
-          <Route exact path="/events" component={Events} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/details" component={Details} />
-          <Route exact path="/membersArea" component={UnderConstruction} />
-          <Route exact path="/donate" component={UnderConstruction} />
-          <Route component={NotFoundpage} />
-        </Switch>
+        <div>
+          <Switch>
+            {/* <Route exact path="/" component={Home} /> */}
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/causes" component={Causes} />
+            <Route exact path="/events" component={Events} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/details" component={Details} />
+            <Route exact path="/membersArea" component={UnderConstruction} />
+            <Route exact path="/donate" component={UnderConstruction} />
+            <Route component={NotFoundpage} />
+          </Switch>
+        </div>
+
         <Footer />
-      </>
+      </div>
     );
   }
 }

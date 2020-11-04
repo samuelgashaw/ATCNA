@@ -8,6 +8,7 @@ function Navbar() {
       className="navbar navbar-expand-lg navbar-dark"
       //  sticky-top
       style={{ backgroundColor: 'rgba(0, 0, 0, 1)' }}
+      id="navPage"
     >
       <NavLink
         exact
@@ -23,10 +24,31 @@ function Navbar() {
           className="d-inline-block align-center"
         />
 
-        <h2 className="display-5 d-inline-block align-middle">
-          &nbsp; hope for tebassie
-          <span style={{ color: '#4FB7F7' }}> (H4T)</span>
-        </h2>
+        <h1
+          className="display-5 d-inline-block align-middle"
+          style={{
+            fontFamily: 'Georgia,serif',
+            textShadow: '1px 1px 25px yellow',
+          }}
+        >
+          &nbsp; hope{' '}
+          <span
+            style={{
+              fontFamily: 'Open Sans, sans-serif',
+            }}
+          >
+            4
+          </span>{' '}
+          tebassie
+          {/* <span
+            style={{
+              color: '#4FB7F7',
+              fontFamily: 'Courier',
+            }}
+          >
+            (H4T)
+          </span> */}
+        </h1>
       </NavLink>
       <button
         className="navbar-toggler"
