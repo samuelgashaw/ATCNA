@@ -11,11 +11,13 @@
   --footerbgColor: #121214;
   --blueBg: url('../../Client/src/images/lightBlue.jpg') no-repeat;
 }
+
 #mainPage {
   margin: 0px 100px 0px 100px;
 }
 #navPage {
   margin: 0px;
+  height: 60px;
 }
 * {
   /* height: auto; */

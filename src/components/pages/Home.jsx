@@ -18,7 +18,7 @@ export default class Home extends Component {
       <>
         <div className="bg-light ">
           {/* <div className="row"> */}
-          <div className="">
+          <div className="hope__image">
             <img
               src={hope}
               alt=""
@@ -126,7 +126,8 @@ export default class Home extends Component {
             <ProgressBar
               animated
               now={(4476.76 / 5000) * 100}
-              label={` ${((4476.76 / 5000) * 100).toPrecision(4)} %`}
+              // label={` ${((4476.76 / 5000) * 100).toPrecision(4)} %`}
+              label="Closed"
               style={{
                 width: '100%',
                 height: '30px',
@@ -136,7 +137,10 @@ export default class Home extends Component {
               className="text-warning font-weight-bold"
               style={{ float: 'left' }}
             >
-              <em style={{ fontFamily: 'Courier' }}>Raised: $4,476.76</em>
+              <em style={{ fontFamily: 'Courier' }}>
+                Raised: $4,476.76 (
+                {`${((4476.76 / 5000) * 100).toPrecision(4)}%`})
+              </em>
             </div>
             <div
               className="text-warning font-weight-bold"
